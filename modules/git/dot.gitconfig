@@ -1,0 +1,20 @@
+[user]
+  name = Masato Bito
+  email = m@btmst.jp
+
+[core]
+  whitespace=fix,-indent-with-non-tab,trailing-space,-cr-at-eol,space-before-tab
+  pager = less -r
+
+[color]
+  ui = true
+
+[push]
+  default = simple
+
+[url "git@github.com:"]
+  pushInsteadOf = git://github.com/
+  pushInsteadOf = https://github.com/
+
+[url "git://github.com/"]
+  insteadOf = https://github.com/
