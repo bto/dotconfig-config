@@ -93,11 +93,10 @@ set dirs $dirs \
     ~/local/*/share/man \
     ~/local/*/share/man/ja \
 
-set -gx MANPATH
 for dir in $dirs
     if not test -d $dir
         continue
     end
-    set MANPATH (string match -v $dir $MANPATH)
-    set MANPATH $dir $MANPATH
+    set -gx MANPATH (string match -v $dir $MANPATH)
+    set -gx MANPATH $dir $MANPATH
 end
