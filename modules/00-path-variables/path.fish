@@ -64,9 +64,9 @@ set dirs $dirs \
     ~/local/*/sbin \
 
 for dir in $dirs
-  if not test -d $dir
-    continue
-  end
-  set PATH (string match -v $dir $PATH)
-  set PATH $dir $PATH
+    if not test -d $dir
+        continue
+    end
+    set PATH (string match -v $dir $PATH)
+    set PATH $dir $PATH
 end

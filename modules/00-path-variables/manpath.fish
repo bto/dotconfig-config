@@ -94,9 +94,9 @@ set dirs $dirs \
     ~/local/*/share/man/ja \
 
 for dir in $dirs
-  if not test -d $dir
-    continue
-  end
-  set MANPATH (string match -v $dir $MANPATH)
-  set MANPATH $dir $MANPATH
+    if not test -d $dir
+        continue
+    end
+    set MANPATH (string match -v $dir $MANPATH)
+    set MANPATH $dir $MANPATH
 end
