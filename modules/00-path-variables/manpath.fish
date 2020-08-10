@@ -93,10 +93,4 @@ set dirs $dirs \
     ~/local/*/share/man \
     ~/local/*/share/man/ja \
 
-for dir in $dirs
-    if not test -d $dir
-        continue
-    end
-    set -gx MANPATH (string match -v $dir $MANPATH)
-    set -gx MANPATH $dir $MANPATH
-end
+dotconfig set_path MANPATH $dirs

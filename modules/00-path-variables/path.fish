@@ -63,10 +63,4 @@ set dirs $dirs \
     ~/local/*/bin \
     ~/local/*/sbin \
 
-for dir in $dirs
-    if not test -d $dir
-        continue
-    end
-    set -gx PATH (string match -v $dir $PATH)
-    set -gx PATH $dir $PATH
-end
+dotconfig set_path PATH $dirs

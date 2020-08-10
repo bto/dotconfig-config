@@ -1,8 +1,4 @@
-set dir ~/.nodenv/bin
-if test -d $dir
-    set -gx PATH (string match -v $dir $PATH)
-    set -gx PATH $dir $PATH
-end
+dotconfig set_path PATH ~/.nodenv/bin
 
 if type -sq nodenv
     source (nodenv init - | psub)
