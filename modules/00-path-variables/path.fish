@@ -63,6 +63,7 @@ set dirs $dirs \
     ~/local/*/bin \
     ~/local/*/sbin \
 
+set -gx PATH
 for dir in $dirs
     if not test -d $dir
         continue

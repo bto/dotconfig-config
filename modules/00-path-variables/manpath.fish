@@ -93,6 +93,7 @@ set dirs $dirs \
     ~/local/*/share/man \
     ~/local/*/share/man/ja \
 
+set -gx MANPATH
 for dir in $dirs
     if not test -d $dir
         continue
