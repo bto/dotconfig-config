@@ -1,1 +1,1 @@
-export LESS='-R'
+set -gx LESS '-R'
