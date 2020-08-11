@@ -2,5 +2,5 @@ set -gx PHPENV_ROOT ~/.phpenv
 dotconfig set_path PATH $PHPENV_ROOT/bin
 
 if type -sq phpenv; and status --is-interactive
-    source (phpenv init -|psub)
+    source (phpenv init - | psub)
 end
