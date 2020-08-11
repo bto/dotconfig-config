@@ -1,4 +1,4 @@
-if not type -sq brew
+if not type -q brew
     exit
 end
 

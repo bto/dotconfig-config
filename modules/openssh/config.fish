@@ -1,3 +1,3 @@
-if type -sq fish_ssh_agent
+if type -q fish_ssh_agent
     fish_ssh_agent
 end

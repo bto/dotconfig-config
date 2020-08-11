@@ -1,4 +1,4 @@
-if not type -sq fisher
+if not type -q fisher
     exit
 end
 
