@@ -9,6 +9,9 @@
 [color]
   ui = true
 
+[ghq]
+  root = /Users/bto/src
+
 [push]
   default = simple
 
