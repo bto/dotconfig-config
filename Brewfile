@@ -1,0 +1,16 @@
+tap "homebrew/cask-fonts"
+
+brew "binutils"
+brew "colordiff"
+brew "coreutils"
+brew "direnv"
+brew "findutils"
+brew "fish"
+brew "fzf"
+brew "git"
+brew "gnu-sed"
+brew "peco"
+brew "source-highlight"
+brew "tmux"
+
+cask "font-hackgen-nerd"
