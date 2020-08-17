@@ -10,7 +10,7 @@
   ui = true
 
 [ghq]
-  root = /Users/bto/src
+  root = ~/src
 
 [push]
   default = simple
