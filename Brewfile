@@ -1,5 +1,6 @@
 tap "homebrew/cask-fonts"
 
+brew "bat"
 brew "binutils"
 brew "colordiff"
 brew "coreutils"
