@@ -3,5 +3,5 @@ if not type -q fisher
 end
 
 if test -z (fisher ls plugin-peco)
-    fisher add oh-my-fish/plugin-peco
+    fisher install oh-my-fish/plugin-peco
 end

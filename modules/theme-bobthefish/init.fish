@@ -3,5 +3,5 @@ if not type -q fisher
 end
 
 if test -z (fisher ls theme-bobthefish)
-    fisher add oh-my-fish/theme-bobthefish
+    fisher install oh-my-fish/theme-bobthefish
 end

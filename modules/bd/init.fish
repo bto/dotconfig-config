@@ -3,5 +3,5 @@ if not type -q fisher
 end
 
 if test -z (fisher ls fish-bd)
-    fisher add 0rax/fish-bd
+    fisher install 0rax/fish-bd
 end

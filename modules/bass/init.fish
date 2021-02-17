@@ -1,3 +1,3 @@
 if test -z (fisher ls bass)
-    fisher add edc/bass
+    fisher install edc/bass
 end

@@ -3,5 +3,5 @@ if not type -q fisher
 end
 
 if test -z (fisher ls 'jethrokuan\/z')
-    fisher add jethrokuan/z
+    fisher install jethrokuan/z
 end
