@@ -1,5 +1,6 @@
 tap "homebrew/cask-fonts"
 
+brew "ag"
 brew "asdf"
 brew "bat"
 brew "binutils"
