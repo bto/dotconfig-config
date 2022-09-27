@@ -5,4 +5,6 @@ curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fi
 fisher install bto/dotconfig
 
 # setup by dotconfig
-dotconfig setup bto/dotconfig-config
+dotconfig clone bto/dotconfig-config
+dotconfig init
+dotconfig load
