@@ -3,7 +3,9 @@ set dirs
 
 # for mac
 set dirs $dirs \
-    /Library/Developer/CommandLineTools/usr/share/man
+    /Library/Apple/usr/share/man \
+    /Library/Developer/CommandLineTools/usr/share/man \
+    /Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/share/man \
 
 # /usr directories
 set dirs $dirs \
