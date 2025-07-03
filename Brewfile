@@ -16,4 +16,5 @@ brew "peco"
 brew "source-highlight"
 brew "tmux"
 
+cask "font-hackgen"
 cask "font-hackgen-nerd"
