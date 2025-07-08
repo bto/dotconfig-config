@@ -2,6 +2,6 @@ if not type -q fisher
     exit
 end
 
-if test -z (fisher ls ilancosman/tide@v5)
-    fisher install ilancosman/tide@v5
+if test -z (fisher ls IlanCosman/tide@v6)
+    fisher install IlanCosman/tide@v6
 end
