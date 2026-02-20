@@ -1,0 +1,11 @@
+--- fish_prompt.fish.org	2026-02-20 10:45:20
++++ fish_prompt.fish	2026-02-20 10:45:49
+@@ -11,7 +11,7 @@
+ set -U $prompt_var # Set var here so if we erase $prompt_var, bg job won't set a uvar
+ 
+ set_color normal | read -l color_normal
+-status fish-path | read -l fish_path
++command -s fish | read -l fish_path
+ 
+ # _tide_repaint prevents us from creating a second background job
+ function _tide_refresh_prompt --on-variable $prompt_var --on-variable COLUMNS
