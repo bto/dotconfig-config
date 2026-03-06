@@ -9,3 +9,6 @@ for file in $files
         break
     end
 end
+
+# Ensure asdf shims take priority over homebrew
+dotconfig set_path PATH ~/.asdf/shims
