@@ -1,26 +1,33 @@
 [user]
-  name = Masato Bito
-  email = m@btmst.jp
+	name = Masato Bito
+	email = m@btmst.jp
 
 [core]
-  whitespace=fix,-indent-with-non-tab,trailing-space,-cr-at-eol,space-before-tab
-  pager = less -r
+	whitespace=fix,-indent-with-non-tab,trailing-space,-cr-at-eol,space-before-tab
+	pager = delta
 
 [init]
-  defaultBranch = main
+	defaultBranch = main
 
 [color]
-  ui = true
+	ui = true
 
 [ghq]
-  root = ~/src
+	root = ~/src
 
 [push]
-  default = simple
+	default = simple
 
 [url "git@github.com:"]
-  insteadOf = git://github.com/
-  insteadOf = https://github.com/
+	insteadOf = git://github.com/
+	insteadOf = https://github.com/
 
 [includeIf "gitdir:~/work/openlogi/"]
-path = ~/.gitconfig-openlogi
+	path = ~/.gitconfig-openlogi
+[interactive]
+	diffFilter = delta --color-only
+[delta]
+	navigate = true
+	light = false
+	side-by-side = true
+	line-numbers = true
