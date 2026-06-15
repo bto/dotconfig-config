@@ -48,6 +48,8 @@ set dirs $dirs \
     ~/sbin \
     ~/*/bin \
     ~/*/sbin \
+    ~/.local/bin \
+    ~/.local/sbin \
 
 # ~/opt directories
 set dirs $dirs \
