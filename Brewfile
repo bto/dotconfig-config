@@ -13,7 +13,6 @@ brew "git"
 brew "gnu-sed"
 brew "peco"
 brew "ripgrep"
-brew "source-highlight"
 brew "tmux"
 
 cask "font-hackgen"
