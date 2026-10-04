@@ -1,4 +1,3 @@
-brew "ag"
 brew "asdf"
 brew "bat"
 brew "binutils"
@@ -13,6 +12,7 @@ brew "ghq"
 brew "git"
 brew "gnu-sed"
 brew "peco"
+brew "ripgrep"
 brew "source-highlight"
 brew "tmux"
 
